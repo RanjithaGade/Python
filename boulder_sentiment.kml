@@ -1,0 +1,2869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>Location Indicators</name>
+    <StyleMap id="redbox">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#redbox1</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#redbox2</styleUrl>
+        </Pair>
+    </StyleMap>
+    <Style id="redbox1">
+        <IconStyle>
+            <scale>1.1</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LineStyle>
+            <color>ff0000aa</color>
+        </LineStyle>
+        <PolyStyle>
+            <color>ff0000aa</color>
+        </PolyStyle>
+    </Style>
+    <Style id="redbox2">
+        <IconStyle>
+            <scale>1.3</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LineStyle>
+            <color>ff0000aa</color>
+        </LineStyle>
+        <PolyStyle>
+            <color>ff0000aa</color>
+        </PolyStyle>
+    </Style>
+<StyleMap id="orangebox">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#orangebox1</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#orangebox2</styleUrl>
+        </Pair>
+    </StyleMap>
+    <Style id="orangebox1">
+        <IconStyle>
+            <scale>1.1</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LineStyle>
+            <color>ff0076fe</color>
+        </LineStyle>
+        <PolyStyle>
+            <color>ff0076fe</color>
+        </PolyStyle>
+    </Style>
+    <Style id="orangebox2">
+        <IconStyle>
+            <scale>1.3</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LineStyle>
+            <color>ff0076fe</color>
+        </LineStyle>
+        <PolyStyle>
+            <color>ff0076fe</color>
+        </PolyStyle>
+    </Style>
+<StyleMap id="yellowbox">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#yellowbox1</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#yellowbox2</styleUrl>
+        </Pair>
+    </StyleMap>
+    <Style id="yellowbox2">
+        <IconStyle>
+            <scale>1.3</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LineStyle>
+            <color>ff00ffff</color>
+        </LineStyle>
+        <PolyStyle>
+            <color>ff00ffff</color>
+        </PolyStyle>
+    </Style>
+    <Style id="yellowbox1">
+        <IconStyle>
+            <scale>1.1</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LineStyle>
+            <color>ff00ffff</color>
+        </LineStyle>
+        <PolyStyle>
+            <color>ff00ffff</color>
+        </PolyStyle>
+    </Style>
+    <StyleMap id="greenbox">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#greenbox1</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#greenbox2</styleUrl>
+        </Pair>
+    </StyleMap>
+    <Style id="greenbox1">
+        <IconStyle>
+            <scale>1.1</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LineStyle>
+            <color>ff00cc00</color>
+        </LineStyle>
+        <PolyStyle>
+            <color>ff00cc00</color>
+        </PolyStyle>
+    </Style>
+    <Style id="greenbox2">
+        <IconStyle>
+            <scale>1.3</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+            <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+        </IconStyle>
+        <LineStyle>
+            <color>ff00cc00</color>
+        </LineStyle>
+        <PolyStyle>
+            <color>ff00cc00</color>
+        </PolyStyle>
+    </Style>
+    
+<Placemark>
+        <name>9xj5v0</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,40.0341796875,96 -105.249023438,40.0396728516,96 -105.238037109,40.0396728516,96 -105.238037109,40.0341796875,96 -105.249023438,40.0341796875,96
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5v1</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,40.0396728516,54 -105.249023438,40.0451660156,54 -105.238037109,40.0451660156,54 -105.238037109,40.0396728516,54 -105.249023438,40.0396728516,54
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5v2</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0341796875,99 -105.238037109,40.0396728516,99 -105.227050781,40.0396728516,99 -105.227050781,40.0341796875,99 -105.238037109,40.0341796875,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5v3</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0396728516,51 -105.238037109,40.0451660156,51 -105.227050781,40.0451660156,51 -105.227050781,40.0396728516,51 -105.238037109,40.0396728516,51
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5v4</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,40.0451660156,94 -105.249023438,40.0506591797,94 -105.238037109,40.0506591797,94 -105.238037109,40.0451660156,94 -105.249023438,40.0451660156,94
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5v8</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0341796875,82 -105.227050781,40.0396728516,82 -105.216064453,40.0396728516,82 -105.216064453,40.0341796875,82 -105.227050781,40.0341796875,82
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5v9</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0396728516,99 -105.227050781,40.0451660156,99 -105.216064453,40.0451660156,99 -105.216064453,40.0396728516,99 -105.227050781,40.0396728516,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5wk</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.194091797,40.0122070312,99 -105.194091797,40.0177001953,99 -105.183105469,40.0177001953,99 -105.183105469,40.0122070312,99 -105.194091797,40.0122070312,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5wh</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.0122070312,75 -105.205078125,40.0177001953,75 -105.194091797,40.0177001953,75 -105.194091797,40.0122070312,75 -105.205078125,40.0122070312,75
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s3</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,39.9957275391,85 -105.281982422,40.0012207031,85 -105.270996094,40.0012207031,85 -105.270996094,39.9957275391,85 -105.281982422,39.9957275391,85
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhh4</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0891113281,99 -105.29296875,40.0946044922,99 -105.281982422,40.0946044922,99 -105.281982422,40.0891113281,99 -105.29296875,40.0891113281,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhh0</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.078125,98 -105.29296875,40.0836181641,98 -105.281982422,40.0836181641,98 -105.281982422,40.078125,98 -105.29296875,40.078125,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhh8</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.078125,94 -105.270996094,40.0836181641,94 -105.260009766,40.0836181641,94 -105.260009766,40.078125,94 -105.270996094,40.078125,94
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s0</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,39.990234375,61 -105.29296875,39.9957275391,61 -105.281982422,39.9957275391,61 -105.281982422,39.990234375,61 -105.29296875,39.990234375,61
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhj9</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0836181641,97 -105.227050781,40.0891113281,97 -105.216064453,40.0891113281,97 -105.216064453,40.0836181641,97 -105.227050781,40.0836181641,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5gu</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.303955078,40.0561523438,99 -105.303955078,40.0616455078,99 -105.29296875,40.0616455078,99 -105.29296875,40.0561523438,99 -105.303955078,40.0561523438,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s6</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0012207031,73 -105.281982422,40.0067138672,73 -105.270996094,40.0067138672,73 -105.270996094,40.0012207031,73 -105.281982422,40.0012207031,73
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vq</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0671386719,82 -105.238037109,40.0726318359,82 -105.227050781,40.0726318359,82 -105.227050781,40.0671386719,82 -105.238037109,40.0671386719,82
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vr</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0726318359,87 -105.238037109,40.078125,87 -105.227050781,40.078125,87 -105.227050781,40.0726318359,87 -105.238037109,40.0726318359,87
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vs</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0561523438,83 -105.227050781,40.0616455078,83 -105.216064453,40.0616455078,83 -105.216064453,40.0561523438,83 -105.227050781,40.0561523438,83
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s5</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0067138672,94 -105.29296875,40.0122070312,94 -105.281982422,40.0122070312,94 -105.281982422,40.0067138672,94 -105.29296875,40.0067138672,94
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vv</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,40.0616455078,80 -105.216064453,40.0671386719,80 -105.205078125,40.0671386719,80 -105.205078125,40.0616455078,80 -105.216064453,40.0616455078,80
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vx</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0726318359,99 -105.227050781,40.078125,99 -105.216064453,40.078125,99 -105.216064453,40.0726318359,99 -105.227050781,40.0726318359,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vy</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,40.0671386719,96 -105.216064453,40.0726318359,96 -105.205078125,40.0726318359,96 -105.205078125,40.0671386719,96 -105.216064453,40.0671386719,96
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vz</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,40.0726318359,97 -105.216064453,40.078125,97 -105.205078125,40.078125,97 -105.205078125,40.0726318359,97 -105.216064453,40.0726318359,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s4</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0012207031,69 -105.29296875,40.0067138672,69 -105.281982422,40.0067138672,69 -105.281982422,40.0012207031,69 -105.29296875,40.0012207031,69
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5w3</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.194091797,39.9957275391,99 -105.194091797,40.0012207031,99 -105.183105469,40.0012207031,99 -105.183105469,39.9957275391,99 -105.194091797,39.9957275391,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vc</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,40.0396728516,99 -105.216064453,40.0451660156,99 -105.205078125,40.0451660156,99 -105.205078125,40.0396728516,99 -105.216064453,40.0396728516,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vd</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0451660156,99 -105.227050781,40.0506591797,99 -105.216064453,40.0506591797,99 -105.216064453,40.0451660156,99 -105.227050781,40.0451660156,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ve</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0506591797,99 -105.227050781,40.0561523438,99 -105.216064453,40.0561523438,99 -105.216064453,40.0506591797,99 -105.227050781,40.0506591797,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vm</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0616455078,99 -105.238037109,40.0671386719,99 -105.227050781,40.0671386719,99 -105.227050781,40.0616455078,99 -105.238037109,40.0616455078,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5mk</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,39.9682617188,99 -105.238037109,39.9737548828,99 -105.227050781,39.9737548828,99 -105.227050781,39.9682617188,99 -105.238037109,39.9682617188,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhhf</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0891113281,88 -105.260009766,40.0946044922,88 -105.249023438,40.0946044922,88 -105.249023438,40.0891113281,88 -105.260009766,40.0891113281,88
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5g8</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.314941406,40.0341796875,90 -105.314941406,40.0396728516,90 -105.303955078,40.0396728516,90 -105.303955078,40.0341796875,90 -105.314941406,40.0341796875,90
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5u5</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0506591797,86 -105.29296875,40.0561523438,86 -105.281982422,40.0561523438,86 -105.281982422,40.0506591797,86 -105.29296875,40.0506591797,86
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5u4</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0451660156,96 -105.29296875,40.0506591797,96 -105.281982422,40.0506591797,96 -105.281982422,40.0451660156,96 -105.29296875,40.0451660156,96
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5w4</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.0012207031,49 -105.205078125,40.0067138672,49 -105.194091797,40.0067138672,49 -105.194091797,40.0012207031,49 -105.205078125,40.0012207031,49
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5u6</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0451660156,86 -105.281982422,40.0506591797,86 -105.270996094,40.0506591797,86 -105.270996094,40.0451660156,86 -105.281982422,40.0451660156,86
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5u1</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0396728516,89 -105.29296875,40.0451660156,89 -105.281982422,40.0451660156,89 -105.281982422,40.0396728516,89 -105.29296875,40.0396728516,89
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhn1</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.0836181641,99 -105.205078125,40.0891113281,99 -105.194091797,40.0891113281,99 -105.194091797,40.0836181641,99 -105.205078125,40.0836181641,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhn0</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.078125,49 -105.205078125,40.0836181641,49 -105.194091797,40.0836181641,49 -105.194091797,40.078125,49 -105.205078125,40.078125,49
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhn2</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.194091797,40.078125,97 -105.194091797,40.0836181641,97 -105.183105469,40.0836181641,97 -105.183105469,40.078125,97 -105.194091797,40.078125,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5u2</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0341796875,93 -105.281982422,40.0396728516,93 -105.270996094,40.0396728516,93 -105.270996094,40.0341796875,93 -105.281982422,40.0341796875,93
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5vu</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,40.0561523438,80 -105.216064453,40.0616455078,80 -105.205078125,40.0616455078,80 -105.205078125,40.0561523438,80 -105.216064453,40.0561523438,80
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhh6</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0891113281,95 -105.281982422,40.0946044922,95 -105.270996094,40.0946044922,95 -105.270996094,40.0891113281,95 -105.281982422,40.0891113281,95
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5u9</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0396728516,99 -105.270996094,40.0451660156,99 -105.260009766,40.0451660156,99 -105.260009766,40.0396728516,99 -105.270996094,40.0396728516,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5q7</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.194091797,39.9627685547,94 -105.194091797,39.9682617188,94 -105.183105469,39.9682617188,94 -105.183105469,39.9627685547,94 -105.194091797,39.9627685547,94
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5kj</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,39.9737548828,84 -105.29296875,39.9792480469,84 -105.281982422,39.9792480469,84 -105.281982422,39.9737548828,84 -105.29296875,39.9737548828,84
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5kn</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,39.9792480469,75 -105.29296875,39.9847412109,75 -105.281982422,39.9847412109,75 -105.281982422,39.9792480469,75 -105.29296875,39.9792480469,75
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5km</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,39.9737548828,76 -105.281982422,39.9792480469,76 -105.270996094,39.9792480469,76 -105.270996094,39.9737548828,76 -105.281982422,39.9737548828,76
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5uw</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0671386719,65 -105.270996094,40.0726318359,65 -105.260009766,40.0726318359,65 -105.260009766,40.0671386719,65 -105.270996094,40.0671386719,65
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ke</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,39.9627685547,98 -105.270996094,39.9682617188,98 -105.260009766,39.9682617188,98 -105.260009766,39.9627685547,98 -105.270996094,39.9627685547,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5kz</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,39.9847412109,60 -105.260009766,39.990234375,60 -105.249023438,39.990234375,60 -105.249023438,39.9847412109,60 -105.260009766,39.9847412109,60
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ky</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,39.9792480469,65 -105.260009766,39.9847412109,65 -105.249023438,39.9847412109,65 -105.249023438,39.9792480469,65 -105.260009766,39.9792480469,65
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5kx</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,39.9847412109,59 -105.270996094,39.990234375,59 -105.260009766,39.990234375,59 -105.260009766,39.9847412109,59 -105.270996094,39.9847412109,59
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ks</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,39.9682617188,99 -105.270996094,39.9737548828,99 -105.260009766,39.9737548828,99 -105.260009766,39.9682617188,99 -105.270996094,39.9682617188,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5kq</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,39.9792480469,97 -105.281982422,39.9847412109,97 -105.270996094,39.9847412109,97 -105.270996094,39.9792480469,97 -105.281982422,39.9792480469,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5kp</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,39.9847412109,92 -105.29296875,39.990234375,92 -105.281982422,39.990234375,92 -105.281982422,39.9847412109,92 -105.29296875,39.9847412109,92
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5kw</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,39.9792480469,99 -105.270996094,39.9847412109,99 -105.260009766,39.9847412109,99 -105.260009766,39.9792480469,99 -105.270996094,39.9792480469,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5kv</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,39.9737548828,93 -105.260009766,39.9792480469,93 -105.249023438,39.9792480469,93 -105.249023438,39.9737548828,93 -105.260009766,39.9737548828,93
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ku</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,39.9682617188,57 -105.260009766,39.9737548828,57 -105.249023438,39.9737548828,57 -105.249023438,39.9682617188,57 -105.260009766,39.9682617188,57
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5kt</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,39.9737548828,70 -105.270996094,39.9792480469,70 -105.260009766,39.9792480469,70 -105.260009766,39.9737548828,70 -105.270996094,39.9737548828,70
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5y3</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.194091797,40.0396728516,91 -105.194091797,40.0451660156,91 -105.183105469,40.0451660156,91 -105.183105469,40.0396728516,91 -105.194091797,40.0396728516,91
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5y5</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.0506591797,74 -105.205078125,40.0561523438,74 -105.194091797,40.0561523438,74 -105.194091797,40.0506591797,74 -105.205078125,40.0506591797,74
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5us</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0561523438,99 -105.270996094,40.0616455078,99 -105.260009766,40.0616455078,99 -105.260009766,40.0561523438,99 -105.270996094,40.0561523438,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj57z</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.303955078,39.9847412109,92 -105.303955078,39.990234375,92 -105.29296875,39.990234375,92 -105.29296875,39.9847412109,92 -105.303955078,39.9847412109,92
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj57y</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.303955078,39.9792480469,93 -105.303955078,39.9847412109,93 -105.29296875,39.9847412109,93 -105.29296875,39.9792480469,93 -105.303955078,39.9792480469,93
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5k7</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,39.9627685547,80 -105.281982422,39.9682617188,80 -105.270996094,39.9682617188,80 -105.270996094,39.9627685547,80 -105.281982422,39.9627685547,80
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5k5</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,39.9627685547,90 -105.29296875,39.9682617188,90 -105.281982422,39.9682617188,90 -105.281982422,39.9627685547,90 -105.29296875,39.9627685547,90
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5yp</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.0726318359,90 -105.205078125,40.078125,90 -105.194091797,40.078125,90 -105.194091797,40.0726318359,90 -105.205078125,40.0726318359,90
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5yr</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.194091797,40.0726318359,97 -105.194091797,40.078125,97 -105.183105469,40.078125,97 -105.183105469,40.0726318359,97 -105.194091797,40.0726318359,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sk</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0122070312,82 -105.281982422,40.0177001953,82 -105.270996094,40.0177001953,82 -105.270996094,40.0122070312,82 -105.281982422,40.0122070312,82
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5yh</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.0561523438,94 -105.205078125,40.0616455078,94 -105.194091797,40.0616455078,94 -105.194091797,40.0561523438,94 -105.205078125,40.0561523438,94
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5yj</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.0616455078,89 -105.205078125,40.0671386719,89 -105.194091797,40.0671386719,89 -105.194091797,40.0616455078,89 -105.205078125,40.0616455078,89
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ym</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.194091797,40.0616455078,98 -105.194091797,40.0671386719,98 -105.183105469,40.0671386719,98 -105.183105469,40.0616455078,98 -105.194091797,40.0616455078,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ev</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.303955078,40.0177001953,85 -105.303955078,40.0231933594,85 -105.29296875,40.0231933594,85 -105.29296875,40.0177001953,85 -105.303955078,40.0177001953,85
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5yn</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.0671386719,76 -105.205078125,40.0726318359,76 -105.194091797,40.0726318359,76 -105.194091797,40.0671386719,76 -105.205078125,40.0671386719,76
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5t7</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0067138672,99 -105.238037109,40.0122070312,99 -105.227050781,40.0122070312,99 -105.227050781,40.0067138672,99 -105.238037109,40.0067138672,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5t4</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,40.0012207031,99 -105.249023438,40.0067138672,99 -105.238037109,40.0067138672,99 -105.238037109,40.0012207031,99 -105.249023438,40.0012207031,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5t5</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,40.0067138672,92 -105.249023438,40.0122070312,92 -105.238037109,40.0122070312,92 -105.238037109,40.0067138672,92 -105.249023438,40.0067138672,92
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5t2</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,39.990234375,98 -105.238037109,39.9957275391,98 -105.227050781,39.9957275391,98 -105.227050781,39.990234375,98 -105.238037109,39.990234375,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5t3</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,39.9957275391,80 -105.238037109,40.0012207031,80 -105.227050781,40.0012207031,80 -105.227050781,39.9957275391,80 -105.238037109,39.9957275391,80
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5t0</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,39.990234375,93 -105.249023438,39.9957275391,93 -105.238037109,39.9957275391,93 -105.238037109,39.990234375,93 -105.249023438,39.990234375,93
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5t1</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,39.9957275391,31 -105.249023438,40.0012207031,31 -105.238037109,40.0012207031,31 -105.238037109,39.9957275391,31 -105.249023438,39.9957275391,31
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5t8</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,39.990234375,97 -105.227050781,39.9957275391,97 -105.216064453,39.9957275391,97 -105.216064453,39.990234375,97 -105.227050781,39.990234375,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5t9</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,39.9957275391,98 -105.227050781,40.0012207031,98 -105.216064453,40.0012207031,98 -105.216064453,39.9957275391,98 -105.227050781,39.9957275391,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ud</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0451660156,84 -105.270996094,40.0506591797,84 -105.260009766,40.0506591797,84 -105.260009766,40.0451660156,84 -105.270996094,40.0451660156,84
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5uf</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0451660156,98 -105.260009766,40.0506591797,98 -105.249023438,40.0506591797,98 -105.249023438,40.0451660156,98 -105.260009766,40.0451660156,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhjc</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,40.0836181641,97 -105.216064453,40.0891113281,97 -105.205078125,40.0891113281,97 -105.205078125,40.0836181641,97 -105.216064453,40.0836181641,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5uc</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0396728516,87 -105.260009766,40.0451660156,87 -105.249023438,40.0451660156,87 -105.249023438,40.0396728516,87 -105.260009766,40.0396728516,87
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ub</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0341796875,88 -105.260009766,40.0396728516,88 -105.249023438,40.0396728516,88 -105.249023438,40.0341796875,88 -105.260009766,40.0341796875,88
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5um</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0616455078,93 -105.281982422,40.0671386719,93 -105.270996094,40.0671386719,93 -105.270996094,40.0616455078,93 -105.281982422,40.0616455078,93
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5un</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0671386719,99 -105.29296875,40.0726318359,99 -105.281982422,40.0726318359,99 -105.281982422,40.0671386719,99 -105.29296875,40.0671386719,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5uh</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0561523438,79 -105.29296875,40.0616455078,79 -105.281982422,40.0616455078,79 -105.281982422,40.0561523438,79 -105.29296875,40.0561523438,79
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5uk</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0561523438,80 -105.281982422,40.0616455078,80 -105.270996094,40.0616455078,80 -105.270996094,40.0561523438,80 -105.281982422,40.0561523438,80
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5uj</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0616455078,49 -105.29296875,40.0671386719,49 -105.281982422,40.0671386719,49 -105.281982422,40.0616455078,49 -105.29296875,40.0616455078,49
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ed</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.314941406,40.0012207031,79 -105.314941406,40.0067138672,79 -105.303955078,40.0067138672,79 -105.303955078,40.0012207031,79 -105.314941406,40.0012207031,79
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5eg</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.303955078,40.0067138672,97 -105.303955078,40.0122070312,97 -105.29296875,40.0122070312,97 -105.29296875,40.0067138672,97 -105.303955078,40.0067138672,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ef</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.303955078,40.0012207031,89 -105.303955078,40.0067138672,89 -105.29296875,40.0067138672,89 -105.29296875,40.0012207031,89 -105.303955078,40.0012207031,89
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ec</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.303955078,39.9957275391,49 -105.303955078,40.0012207031,49 -105.29296875,40.0012207031,49 -105.29296875,39.9957275391,49 -105.303955078,39.9957275391,49
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5mt</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,39.9737548828,99 -105.227050781,39.9792480469,99 -105.216064453,39.9792480469,99 -105.216064453,39.9737548828,99 -105.227050781,39.9737548828,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5mv</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,39.9737548828,65 -105.216064453,39.9792480469,65 -105.205078125,39.9792480469,65 -105.205078125,39.9737548828,65 -105.216064453,39.9737548828,65
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5mq</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,39.9792480469,24 -105.238037109,39.9847412109,24 -105.227050781,39.9847412109,24 -105.227050781,39.9792480469,24 -105.238037109,39.9792480469,24
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5mp</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,39.9847412109,25 -105.249023438,39.990234375,25 -105.238037109,39.990234375,25 -105.238037109,39.9847412109,25 -105.249023438,39.9847412109,25
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5mr</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,39.9847412109,85 -105.238037109,39.990234375,85 -105.227050781,39.990234375,85 -105.227050781,39.9847412109,85 -105.238037109,39.9847412109,85
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5eu</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.303955078,40.0122070312,80 -105.303955078,40.0177001953,80 -105.29296875,40.0177001953,80 -105.29296875,40.0122070312,80 -105.303955078,40.0122070312,80
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s2</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,39.990234375,99 -105.281982422,39.9957275391,99 -105.270996094,39.9957275391,99 -105.270996094,39.990234375,99 -105.281982422,39.990234375,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s1</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,39.9957275391,79 -105.29296875,40.0012207031,79 -105.281982422,40.0012207031,79 -105.281982422,39.9957275391,79 -105.29296875,39.9957275391,79
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5mn</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,39.9792480469,91 -105.249023438,39.9847412109,91 -105.238037109,39.9847412109,91 -105.238037109,39.9792480469,91 -105.249023438,39.9792480469,91
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s7</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0067138672,84 -105.281982422,40.0122070312,84 -105.270996094,40.0122070312,84 -105.270996094,40.0067138672,84 -105.281982422,40.0067138672,84
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5mh</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,39.9682617188,98 -105.249023438,39.9737548828,98 -105.238037109,39.9737548828,98 -105.238037109,39.9682617188,98 -105.249023438,39.9682617188,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5es</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.314941406,40.0122070312,98 -105.314941406,40.0177001953,98 -105.303955078,40.0177001953,98 -105.303955078,40.0122070312,98 -105.314941406,40.0122070312,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5mj</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,39.9737548828,77 -105.249023438,39.9792480469,77 -105.238037109,39.9792480469,77 -105.238037109,39.9737548828,77 -105.249023438,39.9737548828,77
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s9</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,39.9957275391,87 -105.270996094,40.0012207031,87 -105.260009766,40.0012207031,87 -105.260009766,39.9957275391,87 -105.270996094,39.9957275391,87
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5s8</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,39.990234375,96 -105.270996094,39.9957275391,96 -105.260009766,39.9957275391,96 -105.260009766,39.990234375,96 -105.270996094,39.990234375,96
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5w5</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.205078125,40.0067138672,98 -105.205078125,40.0122070312,98 -105.194091797,40.0122070312,98 -105.194091797,40.0067138672,98 -105.205078125,40.0067138672,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xjhj2</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.078125,72 -105.238037109,40.0836181641,72 -105.227050781,40.0836181641,72 -105.227050781,40.078125,72 -105.238037109,40.078125,72
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tv</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,40.0177001953,99 -105.216064453,40.0231933594,99 -105.205078125,40.0231933594,99 -105.205078125,40.0177001953,99 -105.216064453,40.0177001953,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tw</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0231933594,58 -105.227050781,40.0286865234,58 -105.216064453,40.0286865234,58 -105.216064453,40.0231933594,58 -105.227050781,40.0231933594,58
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tt</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0177001953,89 -105.227050781,40.0231933594,89 -105.216064453,40.0231933594,89 -105.216064453,40.0177001953,89 -105.227050781,40.0177001953,89
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tu</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,40.0122070312,95 -105.216064453,40.0177001953,95 -105.205078125,40.0177001953,95 -105.205078125,40.0122070312,95 -105.216064453,40.0122070312,95
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tr</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0286865234,85 -105.238037109,40.0341796875,85 -105.227050781,40.0341796875,85 -105.227050781,40.0286865234,85 -105.238037109,40.0286865234,85
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ts</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0122070312,90 -105.227050781,40.0177001953,90 -105.216064453,40.0177001953,90 -105.216064453,40.0122070312,90 -105.227050781,40.0122070312,90
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tp</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,40.0286865234,78 -105.249023438,40.0341796875,78 -105.238037109,40.0341796875,78 -105.238037109,40.0286865234,78 -105.249023438,40.0286865234,78
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tq</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0231933594,69 -105.238037109,40.0286865234,69 -105.227050781,40.0286865234,69 -105.227050781,40.0231933594,69 -105.238037109,40.0231933594,69
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tz</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,40.0286865234,87 -105.216064453,40.0341796875,87 -105.205078125,40.0341796875,87 -105.205078125,40.0286865234,87 -105.216064453,40.0286865234,87
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5u8</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0341796875,71 -105.270996094,40.0396728516,71 -105.260009766,40.0396728516,71 -105.260009766,40.0341796875,71 -105.270996094,40.0341796875,71
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tx</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0286865234,99 -105.227050781,40.0341796875,99 -105.216064453,40.0341796875,99 -105.216064453,40.0286865234,99 -105.227050781,40.0286865234,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5te</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.227050781,40.0067138672,86 -105.227050781,40.0122070312,86 -105.216064453,40.0122070312,86 -105.216064453,40.0067138672,86 -105.227050781,40.0067138672,86
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tc</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.216064453,39.9957275391,99 -105.216064453,40.0012207031,99 -105.205078125,40.0012207031,99 -105.205078125,39.9957275391,99 -105.216064453,39.9957275391,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tn</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,40.0231933594,95 -105.249023438,40.0286865234,95 -105.238037109,40.0286865234,95 -105.238037109,40.0231933594,95 -105.249023438,40.0231933594,95
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tm</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0177001953,86 -105.238037109,40.0231933594,86 -105.227050781,40.0231933594,86 -105.227050781,40.0177001953,86 -105.238037109,40.0177001953,86
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tj</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,40.0177001953,90 -105.249023438,40.0231933594,90 -105.238037109,40.0231933594,90 -105.238037109,40.0177001953,90 -105.249023438,40.0177001953,90
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5tk</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.238037109,40.0122070312,42 -105.238037109,40.0177001953,42 -105.227050781,40.0177001953,42 -105.227050781,40.0122070312,42 -105.238037109,40.0122070312,42
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5th</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,40.0122070312,87 -105.249023438,40.0177001953,87 -105.238037109,40.0177001953,87 -105.238037109,40.0122070312,87 -105.249023438,40.0122070312,87
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sc</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,39.9957275391,74 -105.260009766,40.0012207031,74 -105.249023438,40.0012207031,74 -105.249023438,39.9957275391,74 -105.260009766,39.9957275391,74
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sb</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,39.990234375,72 -105.260009766,39.9957275391,72 -105.249023438,39.9957275391,72 -105.249023438,39.990234375,72 -105.260009766,39.990234375,72
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sg</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0067138672,80 -105.260009766,40.0122070312,80 -105.249023438,40.0122070312,80 -105.249023438,40.0067138672,80 -105.260009766,40.0067138672,80
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sf</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0012207031,80 -105.260009766,40.0067138672,80 -105.249023438,40.0067138672,80 -105.249023438,40.0012207031,80 -105.260009766,40.0012207031,80
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5se</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0067138672,81 -105.270996094,40.0122070312,81 -105.260009766,40.0122070312,81 -105.260009766,40.0067138672,81 -105.270996094,40.0067138672,81
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sd</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0012207031,82 -105.270996094,40.0067138672,82 -105.260009766,40.0067138672,82 -105.260009766,40.0012207031,82 -105.270996094,40.0012207031,82
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5m5</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.249023438,39.9627685547,98 -105.249023438,39.9682617188,98 -105.238037109,39.9682617188,98 -105.238037109,39.9627685547,98 -105.249023438,39.9627685547,98
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sj</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0177001953,83 -105.29296875,40.0231933594,83 -105.281982422,40.0231933594,83 -105.281982422,40.0177001953,83 -105.29296875,40.0177001953,83
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sh</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0122070312,82 -105.29296875,40.0177001953,82 -105.281982422,40.0177001953,82 -105.281982422,40.0122070312,82 -105.29296875,40.0122070312,82
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sn</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0231933594,88 -105.29296875,40.0286865234,88 -105.281982422,40.0286865234,88 -105.281982422,40.0231933594,88 -105.29296875,40.0231933594,88
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sm</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0177001953,87 -105.281982422,40.0231933594,87 -105.270996094,40.0231933594,87 -105.270996094,40.0177001953,87 -105.281982422,40.0177001953,87
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5ss</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0122070312,97 -105.270996094,40.0177001953,97 -105.260009766,40.0177001953,97 -105.260009766,40.0122070312,97 -105.270996094,40.0122070312,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sr</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0286865234,58 -105.281982422,40.0341796875,58 -105.270996094,40.0341796875,58 -105.270996094,40.0286865234,58 -105.281982422,40.0286865234,58
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sq</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.281982422,40.0231933594,97 -105.281982422,40.0286865234,97 -105.270996094,40.0286865234,97 -105.270996094,40.0231933594,97 -105.281982422,40.0231933594,97
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sp</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.29296875,40.0286865234,90 -105.29296875,40.0341796875,90 -105.281982422,40.0341796875,90 -105.281982422,40.0286865234,90 -105.29296875,40.0286865234,90
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sw</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0231933594,99 -105.270996094,40.0286865234,99 -105.260009766,40.0286865234,99 -105.260009766,40.0231933594,99 -105.270996094,40.0231933594,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sv</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0177001953,85 -105.260009766,40.0231933594,85 -105.249023438,40.0231933594,85 -105.249023438,40.0177001953,85 -105.260009766,40.0177001953,85
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5su</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0122070312,84 -105.260009766,40.0177001953,84 -105.249023438,40.0177001953,84 -105.249023438,40.0122070312,84 -105.260009766,40.0122070312,84
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5st</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0177001953,88 -105.270996094,40.0231933594,88 -105.260009766,40.0231933594,88 -105.260009766,40.0177001953,88 -105.270996094,40.0177001953,88
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sz</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0286865234,85 -105.260009766,40.0341796875,85 -105.249023438,40.0341796875,85 -105.249023438,40.0286865234,85 -105.260009766,40.0286865234,85
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sy</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.260009766,40.0231933594,88 -105.260009766,40.0286865234,88 -105.249023438,40.0286865234,88 -105.249023438,40.0231933594,88 -105.260009766,40.0231933594,88
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5sx</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.270996094,40.0286865234,77 -105.270996094,40.0341796875,77 -105.260009766,40.0341796875,77 -105.260009766,40.0286865234,77 -105.270996094,40.0286865234,77
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5e9</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.314941406,39.9957275391,99 -105.314941406,40.0012207031,99 -105.303955078,40.0012207031,99 -105.303955078,39.9957275391,99 -105.314941406,39.9957275391,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+<Placemark>
+        <name>9xj5e8</name>
+        <styleUrl>#greenbox</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -105.314941406,39.990234375,99 -105.314941406,39.9957275391,99 -105.303955078,39.9957275391,99 -105.303955078,39.990234375,99 -105.314941406,39.990234375,99
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
